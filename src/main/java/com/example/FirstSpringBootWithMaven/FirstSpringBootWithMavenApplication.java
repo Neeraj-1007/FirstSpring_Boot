@@ -15,24 +15,6 @@ public class FirstSpringBootWithMavenApplication {
 		SpringApplication.run(FirstSpringBootWithMavenApplication.class, args);
 
 
-	}
-
-	public static String add(int a,int b){
-	if(a>b) {
-		int c = a + b;
-	}else{
-		int c = a - b;
-	}
-		return c;
-	}
-
-	public static String sub(int a,int b){
-		if(a>b) {
-			int c = a - b;
-		}else{
-			int c = (a-b)*(-1);
-		}
-		return c;
 
 	}
 
